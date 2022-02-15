@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SkillRary Courses]]>
+    </line>
+    <line>
+      <![CDATA[SkillRary - Home]]>
+    </line>
+    <line>
+      <![CDATA[Twitter]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-14T09:27:38 IST" name="Default suite" finished-at="2022-02-14T09:28:54 IST" duration-ms="76158">
+    <groups>
+    </groups>
+    <test started-at="2022-02-14T09:27:38 IST" name="Default test" finished-at="2022-02-14T09:28:54 IST" duration-ms="76158">
+      <class name="testscripts.Testacse1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.Testacse1@5fa07e12]" started-at="2022-02-14T09:27:38 IST" name="openApp" finished-at="2022-02-14T09:27:45 IST" duration-ms="6998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:testscripts.Testacse1@5fa07e12]" started-at="2022-02-14T09:27:45 IST" name="tc1" finished-at="2022-02-14T09:27:55 IST" duration-ms="9137" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary Courses]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testscripts.Testacse1@5fa07e12]" started-at="2022-02-14T09:27:55 IST" name="closeApp" finished-at="2022-02-14T09:27:56 IST" duration-ms="1218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=Testacse1.tc1()[pri:0, instance:testscripts.Testacse1@5fa07e12] output=SkillRary Courses]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.Testacse1 -->
+      <class name="testscripts.Testacse2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.Testacse2@55b53d44]" started-at="2022-02-14T09:27:56 IST" name="openApp" finished-at="2022-02-14T09:28:01 IST" duration-ms="5081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:testscripts.Testacse2@55b53d44]" started-at="2022-02-14T09:28:01 IST" name="tc2" finished-at="2022-02-14T09:28:10 IST" duration-ms="8923" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SkillRary - Home]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testscripts.Testacse2@55b53d44]" started-at="2022-02-14T09:28:10 IST" name="closeApp" finished-at="2022-02-14T09:28:11 IST" duration-ms="1463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=Testacse2.tc2()[pri:0, instance:testscripts.Testacse2@55b53d44] output=SkillRary - Home]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.Testacse2 -->
+      <class name="testscripts.Testcase3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.Testcase3@482bce4f]" started-at="2022-02-14T09:28:11 IST" name="openApp" finished-at="2022-02-14T09:28:16 IST" duration-ms="5014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc3()[pri:0, instance:testscripts.Testcase3@482bce4f]" started-at="2022-02-14T09:28:16 IST" name="tc3" finished-at="2022-02-14T09:28:51 IST" duration-ms="34357" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Twitter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testscripts.Testcase3@482bce4f]" started-at="2022-02-14T09:28:51 IST" name="closeApp" finished-at="2022-02-14T09:28:54 IST" duration-ms="3815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=Testcase3.tc3()[pri:0, instance:testscripts.Testcase3@482bce4f] output=Twitter]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.Testcase3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
